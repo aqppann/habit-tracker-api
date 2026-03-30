@@ -7,6 +7,6 @@ import lombok.Data;
 @Data
 public class HabitRequest {
     @NotBlank
-    private String habitName;
+    private String name;
     private String description;
 }
