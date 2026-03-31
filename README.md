@@ -84,3 +84,7 @@ docker-compose up --build
 ```bash
 ./mvnw test
 ```
+
+## Live Demo
+
+API Documentation: https://habit-tracker-api-production-ae4b.up.railway.app/swagger-ui/index.html
