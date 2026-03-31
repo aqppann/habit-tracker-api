@@ -9,9 +9,10 @@ import lombok.Data;
 public class RegisterRequest {
     @NotBlank
     @Email
+    @Size(max = 100)
     private String email;
 
     @NotBlank
-    @Size(min = 6)
+    @Size(min = 6, max = 50)
     private String password;
 }
