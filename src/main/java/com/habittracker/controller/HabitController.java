@@ -8,6 +8,7 @@ import com.habittracker.repository.UserRepository;
 import com.habittracker.service.HabitService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,6 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/habits")
 @RequiredArgsConstructor
+@SecurityRequirement(name = "bearerAuth")
 public class HabitController {
     private final HabitService habitService;
     private final UserRepository userRepository;
