@@ -86,5 +86,4 @@ docker-compose up --build
 ```
 
 ## Live Demo
-
-API Documentation: https://habit-tracker-api-production-ae4b.up.railway.app/swagger-ui/index.html
+API Documentation: https://habit-tracker-api-wisb.onrender.com/swagger-ui/index.html
